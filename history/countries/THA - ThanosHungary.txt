@@ -79,19 +79,50 @@ create_country_leader = {
 	ideology = nazism
     traits = {
         Dictator
-
-		
 	}
 }
 
-#create_field_marshal = {
-#	name = "Xhemal Aranitasi"
-#	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-#	traits = { }
-#	skill = 2
-#	attack_skill = 1
-#    defense_skill = 3
-#    planning_skill = 2
-#    logistics_skill = 1
-#}
+create_field_marshal = {
+	name = "Ebony Maw"
+	picture = "Thanos_Ebony_Maw.dds"
+	traits = { old_guard }
+	skill = 4
+	attack_skill = 5
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Cull Obsidian"
+	picture = "Thanos_Cull_Obsidian.dds"
+	traits = { harsh_leader infantry_officer }
+	skill = 4
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Corvus Glaive"
+	picture = "Thanos_Corvus_Glaive.dds"
+	traits = { harsh_leader inflexible_strategist }
+	skill = 4
+	attack_skill = 2
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Proxima Midnight"
+	picture = "Thanos_Proxima_Midnight.dds"
+	traits = { reckless }
+	skill = 3
+	attack_skill = 4
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
 
